@@ -7,7 +7,7 @@ module ALU_32bit (
 );
     always @(*) begin
         case (ALUControl)
-            4'b0000: Result = A & B;     // AND
+            4'b0000: Result = A & B;     // and
             4'b0001: Result = A | B;     // OR
             4'b0010: Result = A + B;     // ADD
             4'b0110: Result = A - B;     // SUB
